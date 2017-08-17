@@ -14,6 +14,8 @@
 		633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633646C71B8C657400FF45E2 /* LaunchScreen.xib */; };
 		A109A60B1F45763800FFD01F /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A109A60A1F45763800FFD01F /* QuestionBank.swift */; };
 		A10D88C21F443238001EBE1E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10D88C11F443238001EBE1E /* Question.swift */; };
+		A11DE6A71F46318800CD545A /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A11DE6A51F462F4000CD545A /* ProgressHUD.m */; };
+		A11DE6A81F46319400CD545A /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A11DE6A61F462F4000CD545A /* ProgressHUD.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -170,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11DE6A81F46319400CD545A /* ProgressHUD.bundle in Resources */,
 				633646C41B8C657400FF45E2 /* Main.storyboard in Resources */,
 				633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */,
 				633646C61B8C657400FF45E2 /* Images.xcassets in Resources */,
@@ -185,6 +188,7 @@
 			files = (
 				A10D88C21F443238001EBE1E /* Question.swift in Sources */,
 				A109A60B1F45763800FFD01F /* QuestionBank.swift in Sources */,
+				A11DE6A71F46318800CD545A /* ProgressHUD.m in Sources */,
 				633646C11B8C657400FF45E2 /* ViewController.swift in Sources */,
 				633646BF1B8C657400FF45E2 /* AppDelegate.swift in Sources */,
 			);
