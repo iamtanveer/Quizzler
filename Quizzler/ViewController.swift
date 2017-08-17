@@ -73,7 +73,6 @@ class ViewController: UIViewController {
         if correctAnswer == pickedAnswer {
             print("Correct")
             score = score + 1
-//            updateUI()
         }else{
             print("Wrong")
         }
@@ -82,8 +81,7 @@ class ViewController: UIViewController {
     
     func startOver() {
         questionNumber = 0
-//        score = 0
-//        updateUI()
+        score = 0
         nextQuestion()
     }
     
